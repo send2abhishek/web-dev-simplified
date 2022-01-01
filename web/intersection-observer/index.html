@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intersction observer</title>
+    <script src="./index.js" defer></script>
+    <style>
+      .container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+      .card {
+        padding: 0.5rem;
+        border: 1px solid black;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
+      }
+      .card.show {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">This is the first card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the card</div>
+      <div class="card">This is the last card</div>
+    </div>
+  </body>
+</html>
